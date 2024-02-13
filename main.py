@@ -1,12 +1,26 @@
-telugu=80
-english=90
-maths=70
-science=80
-hindi=80
-social=90
-total_score=600
-total_marks=telugu+english+maths+science+hindi+social
-total_percentage=total_marks/total_score*100
-print(total_marks)
-print(total_percentage)
-print(f"prathap scored {490} with={490/6}%")
+a=int(input("addition of :"))
+b=int(input("addition of :"))
+print(f"addition of {a}+{b}={a+b}")
+
+a=int(input("subtraction of :"))
+b=int(input("subtraction of :"))
+print(f"subtraction of {a}-{b}={a-b}")
+
+a=int(input("division of :"))
+b=int(input("division of :"))
+print(f"division of {a}/{b}={a/b}")
+
+a=int(input("multiplication of :"))
+b=int(input("mumtiplication of :"))
+print(f"multiplication of {a}*{b}={a*b}")
+
+a=int(input("module of :"))
+b=int(input("module of :"))
+print(f"module of {a}%{b}={a%b}")
+
+a=int(input("floor_division of :"))
+b=int(input("floor_division of :"))
+print(f"floor_division of {a}//{b}={a//b}")
+
+
+
